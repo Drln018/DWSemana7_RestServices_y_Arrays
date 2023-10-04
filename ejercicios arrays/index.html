@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones de Arreglo en JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Operaciones de Arreglo en JavaScript</h1>
+
+    <label for="operation">Selecciona una operación:</label>
+    <select id="operation">
+        <option value="toString">toString()</option>
+        <option value="join">join()</option>
+        <option value="concat">concat()</option>
+        <option value="push">push()</option>
+        <option value="pop">pop()</option>
+        <option value="shift">shift()</option>
+        <option value="unshift">unshift()</option>
+        <option value="splice">splice()</option>
+    </select>
+
+    <button onclick="performOperation()">Realizar Operación</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
